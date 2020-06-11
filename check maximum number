@@ -1,0 +1,9 @@
+number=[10,12,34,56,78,99]
+max_number=number[0]
+
+
+for x in number:
+    if  x > max_number:
+        max_number= x
+
+print(max_number)
